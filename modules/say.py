@@ -1,7 +1,7 @@
 #mport cowsay
 import sys
 
-from sayings import hello
+from modules.sayings import hello
 
 if len(sys.argv) == 2:
     #cowsay.cat("Hello, " + sys.argv[1])
